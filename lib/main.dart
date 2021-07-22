@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:image_video_downloader/pages/home.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Menu(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
